@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.box{
+    background: #fff;
+    box-sizing: 0 0 0 1px #e2e9ed;
+    position: relative;
+    z-index: 0;
+    padding: 60px 10px;
+    transition: 0.5s all;
+}
+.box:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgb(0,0,0,0.2);
+    transform: scale(1.07);
+}
+.box .avtar{
+   height: 150px;
+   width: 150px;
+   border-radius: 100%;
+   overflow: hidden;
+   margin: 0 auto 20px;
+} 
+.box .box_content{
+    font-family: sans-serif;
+}
+.title{
+    font-weight: 700;
+    line-height: 1rem;
+}
+.post{
+    color: lightslategray;
+    line-height: 2.375rem;
+}
+.icons{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.2s all;
+}
+.icons:hover{
+    opacity: 1;
+    transform: translateY(0);
+}
+.icons li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+.icons li a{
+    color: lightslategray;
+    font-size: 25px;
+}
